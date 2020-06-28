@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3926A88724A9275900E518DC /* Code_DrawerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A88624A9275900E518DC /* Code_DrawerApp.swift */; };
+		3926A88924A9275900E518DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A88824A9275900E518DC /* ContentView.swift */; };
+		3926A88B24A9275A00E518DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3926A88A24A9275A00E518DC /* Assets.xcassets */; };
+		3926A88E24A9275A00E518DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3926A88D24A9275A00E518DC /* Preview Assets.xcassets */; };
+		3926A89A24A9275B00E518DC /* Code_DrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A89924A9275B00E518DC /* Code_DrawerTests.swift */; };
+		3926A8A524A9275B00E518DC /* Code_DrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A8A424A9275B00E518DC /* Code_DrawerUITests.swift */; };
+		3926A8B524A948D100E518DC /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A8B424A948D100E518DC /* NavigationMenu.swift */; };
+		3926A8B824A9495200E518DC /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A8B724A9495200E518DC /* CodeView.swift */; };
+		3926A8BB24A949B600E518DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A8BA24A949B600E518DC /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3926A89624A9275B00E518DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3926A87B24A9275800E518DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3926A88224A9275800E518DC;
+			remoteInfo = "Code Drawer";
+		};
+		3926A8A124A9275B00E518DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3926A87B24A9275800E518DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3926A88224A9275800E518DC;
+			remoteInfo = "Code Drawer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3926A88324A9275800E518DC /* Code Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Drawer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3926A88624A9275900E518DC /* Code_DrawerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_DrawerApp.swift; sourceTree = "<group>"; };
+		3926A88824A9275900E518DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3926A88A24A9275A00E518DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3926A88D24A9275A00E518DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3926A88F24A9275A00E518DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926A89024A9275A00E518DC /* Code_Drawer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Code_Drawer.entitlements; sourceTree = "<group>"; };
+		3926A89524A9275B00E518DC /* Code DrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code DrawerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3926A89924A9275B00E518DC /* Code_DrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_DrawerTests.swift; sourceTree = "<group>"; };
+		3926A89B24A9275B00E518DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926A8A024A9275B00E518DC /* Code DrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code DrawerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3926A8A424A9275B00E518DC /* Code_DrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_DrawerUITests.swift; sourceTree = "<group>"; };
+		3926A8A624A9275B00E518DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926A8B424A948D100E518DC /* NavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
+		3926A8B724A9495200E518DC /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		3926A8BA24A949B600E518DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3926A88024A9275800E518DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89224A9275B00E518DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89D24A9275B00E518DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3926A87A24A9275800E518DC = {
+			isa = PBXGroup;
+			children = (
+				3926A88524A9275900E518DC /* Code Drawer */,
+				3926A89824A9275B00E518DC /* Code DrawerTests */,
+				3926A8A324A9275B00E518DC /* Code DrawerUITests */,
+				3926A88424A9275800E518DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3926A88424A9275800E518DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3926A88324A9275800E518DC /* Code Drawer.app */,
+				3926A89524A9275B00E518DC /* Code DrawerTests.xctest */,
+				3926A8A024A9275B00E518DC /* Code DrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3926A88524A9275900E518DC /* Code Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8B224A948B500E518DC /* views */,
+				3926A88624A9275900E518DC /* Code_DrawerApp.swift */,
+				3926A88824A9275900E518DC /* ContentView.swift */,
+				3926A88A24A9275A00E518DC /* Assets.xcassets */,
+				3926A88F24A9275A00E518DC /* Info.plist */,
+				3926A89024A9275A00E518DC /* Code_Drawer.entitlements */,
+				3926A88C24A9275A00E518DC /* Preview Content */,
+			);
+			path = "Code Drawer";
+			sourceTree = "<group>";
+		};
+		3926A88C24A9275A00E518DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3926A88D24A9275A00E518DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3926A89824A9275B00E518DC /* Code DrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3926A89924A9275B00E518DC /* Code_DrawerTests.swift */,
+				3926A89B24A9275B00E518DC /* Info.plist */,
+			);
+			path = "Code DrawerTests";
+			sourceTree = "<group>";
+		};
+		3926A8A324A9275B00E518DC /* Code DrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8A424A9275B00E518DC /* Code_DrawerUITests.swift */,
+				3926A8A624A9275B00E518DC /* Info.plist */,
+			);
+			path = "Code DrawerUITests";
+			sourceTree = "<group>";
+		};
+		3926A8B224A948B500E518DC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8B924A949A800E518DC /* Header */,
+				3926A8B624A9494200E518DC /* Code */,
+				3926A8B324A948BB00E518DC /* NavigationBar */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3926A8B324A948BB00E518DC /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8B424A948D100E518DC /* NavigationMenu.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		3926A8B624A9494200E518DC /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8B724A9495200E518DC /* CodeView.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		3926A8B924A949A800E518DC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3926A8BA24A949B600E518DC /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3926A88224A9275800E518DC /* Code Drawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3926A8A924A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code Drawer" */;
+			buildPhases = (
+				3926A87F24A9275800E518DC /* Sources */,
+				3926A88024A9275800E518DC /* Frameworks */,
+				3926A88124A9275800E518DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code Drawer";
+			productName = "Code Drawer";
+			productReference = 3926A88324A9275800E518DC /* Code Drawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3926A89424A9275B00E518DC /* Code DrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3926A8AC24A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code DrawerTests" */;
+			buildPhases = (
+				3926A89124A9275B00E518DC /* Sources */,
+				3926A89224A9275B00E518DC /* Frameworks */,
+				3926A89324A9275B00E518DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3926A89724A9275B00E518DC /* PBXTargetDependency */,
+			);
+			name = "Code DrawerTests";
+			productName = "Code DrawerTests";
+			productReference = 3926A89524A9275B00E518DC /* Code DrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3926A89F24A9275B00E518DC /* Code DrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3926A8AF24A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code DrawerUITests" */;
+			buildPhases = (
+				3926A89C24A9275B00E518DC /* Sources */,
+				3926A89D24A9275B00E518DC /* Frameworks */,
+				3926A89E24A9275B00E518DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3926A8A224A9275B00E518DC /* PBXTargetDependency */,
+			);
+			name = "Code DrawerUITests";
+			productName = "Code DrawerUITests";
+			productReference = 3926A8A024A9275B00E518DC /* Code DrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3926A87B24A9275800E518DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3926A88224A9275800E518DC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3926A89424A9275B00E518DC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3926A88224A9275800E518DC;
+					};
+					3926A89F24A9275B00E518DC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3926A88224A9275800E518DC;
+					};
+				};
+			};
+			buildConfigurationList = 3926A87E24A9275800E518DC /* Build configuration list for PBXProject "Code Drawer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3926A87A24A9275800E518DC;
+			productRefGroup = 3926A88424A9275800E518DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3926A88224A9275800E518DC /* Code Drawer */,
+				3926A89424A9275B00E518DC /* Code DrawerTests */,
+				3926A89F24A9275B00E518DC /* Code DrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3926A88124A9275800E518DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3926A88E24A9275A00E518DC /* Preview Assets.xcassets in Resources */,
+				3926A88B24A9275A00E518DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89324A9275B00E518DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89E24A9275B00E518DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3926A87F24A9275800E518DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3926A8BB24A949B600E518DC /* HeaderView.swift in Sources */,
+				3926A88924A9275900E518DC /* ContentView.swift in Sources */,
+				3926A8B524A948D100E518DC /* NavigationMenu.swift in Sources */,
+				3926A88724A9275900E518DC /* Code_DrawerApp.swift in Sources */,
+				3926A8B824A9495200E518DC /* CodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89124A9275B00E518DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3926A89A24A9275B00E518DC /* Code_DrawerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926A89C24A9275B00E518DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3926A8A524A9275B00E518DC /* Code_DrawerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3926A89724A9275B00E518DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3926A88224A9275800E518DC /* Code Drawer */;
+			targetProxy = 3926A89624A9275B00E518DC /* PBXContainerItemProxy */;
+		};
+		3926A8A224A9275B00E518DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3926A88224A9275800E518DC /* Code Drawer */;
+			targetProxy = 3926A8A124A9275B00E518DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3926A8A724A9275B00E518DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3926A8A824A9275B00E518DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3926A8AA24A9275B00E518DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Code Drawer/Code_Drawer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Code Drawer/Preview Content\"";
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Code Drawer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-Drawer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3926A8AB24A9275B00E518DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Code Drawer/Code_Drawer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Code Drawer/Preview Content\"";
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Code Drawer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-Drawer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3926A8AD24A9275B00E518DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				INFOPLIST_FILE = "Code DrawerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-DrawerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code Drawer.app/Contents/MacOS/Code Drawer";
+			};
+			name = Debug;
+		};
+		3926A8AE24A9275B00E518DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				INFOPLIST_FILE = "Code DrawerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-DrawerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code Drawer.app/Contents/MacOS/Code Drawer";
+			};
+			name = Release;
+		};
+		3926A8B024A9275B00E518DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				INFOPLIST_FILE = "Code DrawerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-DrawerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Code Drawer";
+			};
+			name = Debug;
+		};
+		3926A8B124A9275B00E518DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3B7PRYY65;
+				INFOPLIST_FILE = "Code DrawerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hahn2014studios.Code-DrawerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Code Drawer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3926A87E24A9275800E518DC /* Build configuration list for PBXProject "Code Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3926A8A724A9275B00E518DC /* Debug */,
+				3926A8A824A9275B00E518DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3926A8A924A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3926A8AA24A9275B00E518DC /* Debug */,
+				3926A8AB24A9275B00E518DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3926A8AC24A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code DrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3926A8AD24A9275B00E518DC /* Debug */,
+				3926A8AE24A9275B00E518DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3926A8AF24A9275B00E518DC /* Build configuration list for PBXNativeTarget "Code DrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3926A8B024A9275B00E518DC /* Debug */,
+				3926A8B124A9275B00E518DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3926A87B24A9275800E518DC /* Project object */;
+}
